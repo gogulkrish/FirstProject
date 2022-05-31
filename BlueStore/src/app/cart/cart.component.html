@@ -1,0 +1,124 @@
+<div class="cartcont">
+    <div class="cartpdetails">
+        <div class="pdcrt cartpd-1">
+            <p class="cpgp"><span class="cpgspn">1</span>&nbsp;LOGIN</p>
+            <div class="crtpd1a">
+                <p><span class="boldspn">{{usrname}}</span>&nbsp;<span>{{userphnum}}</span></p>
+                <input type="button" class="btn btn-default ctpd2b" value="CHANGE">
+            </div>
+        </div>
+        <div class="pdcrt cartpd-2">
+            <p class="cpgp"><span class="cpgspn">2</span>&nbsp;DELIVERY ADDRESS</p>
+            <div class="crtpd1a">
+                <p><span class="boldspn">{{usrname}}</span>&nbsp;<span>{{usradrs}}</span></p>
+                <input type="button" class="btn btn-default ctpd2c" value="CHANGE">
+            </div>
+        </div>
+        <div class="pdcrt cartpd-3">     
+            <p class="cpgp"><span class="cpgspn">3</span>&nbsp;ORDER SUMMARY</p>
+            <div class="cartpdet">
+                <div class="cartpdet1">
+                    <img src="assets\Images\New folder\bag-25.jpg"/>
+                </div>
+                <div class="cartpdet2">
+                    <div class="cartpdpname">
+                        {{productname}}
+                    </div>
+                    <div class="cartpdclr">
+                        {{cartpcolor}}
+                    </div>
+                    <div class="cartpddevlryd">
+                        Delivery by {{dvlrydate}} | &#8377;{{cartpdcharge}}
+                    </div>
+                    <div class="cartpdamnt">
+                        <span class="prizesty">&#8377;{{productprice}}</span>
+                        <span class="text-muted"><del>&#8377;{{orgprice}}</del></span>
+                        <span style="color: green;">{{extraoff}}</span>
+                    </div>    
+                </div>
+            </div>
+            <div class="grpnoofp">
+                <button>-</button>
+                <input class="noofpro" type="text" value="1">
+                <button>+</button>
+            </div>  
+        </div>
+        <div class="pdcrt cartpd-4">          
+            <p class="cpgp"><span class="cpgspn">4</span>&nbsp;PAYMENT OPTIONS</p>
+            <hr>
+            <div class="paymnt1">
+                <input type="radio" class="" name="paymentoption">
+                <div class="paycpind">
+                    <img src="">
+                    <span>UPI</span>
+                </div>
+            </div>
+            <hr>
+            <div class="paymnt1">
+                <input type="radio" class="" name="paymentoption">
+                <div class="paycpind">
+                    <img src="">
+                    <span>Wallets</span>
+                </div>
+            </div>
+            <hr>
+            <div class="paymnt1">
+                <input type="radio" class="" name="paymentoption">
+                <div class="paycpind">
+                    <span>Credit / Debit / ATM Card</span>
+                </div>
+            </div>
+            <hr>
+            <div class="paymnt1">
+                <input type="radio" class="" name="paymentoption">
+                <div class="paycpind">
+                    <span>Net Banking</span>
+                </div>
+            </div>
+            <hr>
+            <div class="paymnt1">
+                <input type="radio" class="" name="paymentoption">
+                <div class="paycpind">
+                    <span>Cash on Delivery</span>
+                </div>
+            </div>
+            <hr>
+            <div class="paymnt1">
+                <input type="radio" class="" name="paymentoption">
+                <div class="paycpind">
+                    <span>EMI (Easy Installments)</span>
+                </div>
+            </div>
+            <hr>
+            <div class="cntnuebtn"><button class="btn btn-default cartbtn ">CONTINUE</button></div>
+
+        </div>
+    </div>
+  <div class="cartpaydet">
+    <p class="cpgp cpgpa">PRICE DETAILS</p>
+    <hr>
+    <div class="cpdtacmn cpdt1aa">
+        <div>
+            <p>Price</p>
+        </div>
+        <div>{{productprice}}</div>
+    </div>
+    <div class="cpdtacmn cpdt1ab">
+        <div>
+            <p>Delivery Charges</p>
+        </div>
+        <div>{{cartpdcharge}}</div>
+    </div>
+    <hr>
+    <div class="cpdtacmn cpdt1ac">
+        <div>
+            <p>Total Payable</p>
+        </div>
+        <div>{{productprice}}</div>
+    </div>
+    <hr>
+    <div class="cpdt1ad">
+        <p>Your Total Savings on this order {{priceusave}}</p>
+    </div>
+  </div>
+</div>

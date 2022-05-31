@@ -1,0 +1,71 @@
+<div id="footer">
+    <div class="container container-fluid">
+      <br />
+      <div class="col-md-3">
+        <h4>MY BLUE STORE</h4>
+        <ul class="list-unstyled footer-list">
+          <li *ngFor="let mystr of mystore"><a href="">{{mystr}}</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h4>USEFUL LINKS</h4>
+        <ul class="list-unstyled footer-list">
+          <li *ngFor="let usefllnk of usefllinks"><a>{{usefllnk}}</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 playstore">
+        <h4>DOWNLOAD THE APP ON</h4>
+        <img src="assets/Images/play-store1.png" />
+        <img src="assets/Images/app-store1.png" />
+      </div>
+      <div class="col-md-3">
+        <h4 class="subscribe-opt">SUBSCRIBE</h4>
+        <form class="navbar-form" action="/action_page.php">
+          <div class="input-group input-grp2">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Your Email Address"
+            />
+            <div class="input-group-btn">
+              <button class="btn btn-default" type="submit">DONE</button>
+            </div>
+          </div>
+        </form>
+        <p class="subscribe-opt">
+          Register now to get updates on promotions and coupons.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container container-fluid media-rupay">
+    <div class="col-md-6">
+      <h4>STAY CONNECTED WITH US</h4>
+      <ul class="list-unstyled smedia">
+        <li>
+          <a href=""
+            ><i class="fa fa-facebook-square" style="font-size: 30px"></i
+          ></a>
+        </li>
+        <li>
+          <a href=""
+            ><i class="fa fa-instagram" style="font-size: 30px"></i
+          ></a>
+        </li>
+        <li>
+          <a href=""><i class="fa fa-twitter" style="font-size: 30px"></i></a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-6 pay-sec">
+      <h4>PAY SECURELY</h4>
+      <img src="assets/Images/america.png" />
+      <img src="assets/Images/visa.png" />
+    </div>
+  </div>
+  <div class="copyright-tab">
+    <hr style="height: 5px; color: #000" />
+    <p class="text-center">
+      Copyright &#169; 2021 All Rights Reserved | Developed by Nirmal
+    </p>
+  </div>

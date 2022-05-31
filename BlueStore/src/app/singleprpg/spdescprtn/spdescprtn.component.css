@@ -1,0 +1,53 @@
+.product-des {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+.pro-des-3 {
+    padding-left: 100px;
+  }
+.bgrp {
+    padding: 10px 15px;
+    color: black;
+  }
+.bgrp:hover {
+    color: #0984e3;
+    border-color: #0984e3;
+    background-color: white;
+  }
+  
+  
+.price {
+    font-size: 25px;
+    font-weight: 700;
+  }
+.inpincode {
+    padding: 5px 15px;
+    border: none;
+    border-bottom: #0984e3 solid 2px;
+    outline: none;
+    
+  }
+.spincode {
+    border: none;
+    background-color: white;
+    color: #0984e3;
+  }
+.prodlist li {
+    margin-top: 12px;
+  }
+.inreview {
+    padding: 5px 10px;
+    width: 30%;
+  
+  }
+.revsubbtn{
+    padding: 7px 10px;
+    background-color: #fb641b;
+    border: none;
+    color: white;
+    border-radius: 3px;
+  }
+.revsubbtn:hover{
+    color:linen;
+  }

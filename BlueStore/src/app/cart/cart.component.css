@@ -1,0 +1,182 @@
+.boldspn{
+    font-weight: 550;
+}
+.cartcont{
+    background-color: #f1f3f6;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0 50px 0;
+}
+.cartpdetails{
+    width: 55%;
+    height: auto;
+    margin: 5px;
+    border-radius: 5px;
+}
+.cartpaydet{
+    width: 30%;
+    height: 400px;
+    /* height: auto; */
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 30px;
+}
+.pdcrt{
+    width: 100%;
+    height: auto;
+    margin: 5px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+.cartpd-1{
+   padding: 10px;
+
+}
+.crtpd1a{
+    display: flex;
+    margin-left: 10px;
+}
+.ctpd2b{
+    margin-left: 450px;
+    border-radius: 0;
+    background-color: #fff;
+    color: #0984e3;
+    box-shadow: 0;
+}
+.ctpd2c{
+    margin-left: 300px;
+    border-radius: 0;
+    background-color: #fff;
+    color: #0984e3;
+}
+.cartpd-2{
+   padding: 10px;
+}
+.cartpd-3{
+   padding: 10px; 
+}
+.cartpd-4{
+    padding: 40px;
+}
+.cpgspn{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 2px 5px;
+    background-color: #f0f0f0;
+    color: #0984e3;
+}
+.cpgp{
+   font-weight: 600;
+   color: #878787;
+}
+.cpgpa{
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+.cartpdet{
+    display: flex;
+}
+.cartpdet1{
+    width: 100px;
+    height: auto;
+    margin: 10px 0 10px 20px;
+}
+.cartpdet1 img{
+    width: 90px;
+    height: auto;
+}
+.cartpdet2{
+    padding: 10px;
+}
+.cartpdpname{
+    padding: 5px;
+}
+.cartpdclr{
+    padding: 5px;
+}
+.cartpddevlryd{
+    padding: 5px;
+}
+.cartpdamnt{
+    padding: 5px;
+}
+.prizesty{
+    font-size: 18px;
+    font-weight: 600;
+}
+.cartpdamnt span{
+    padding: 5px;
+}
+.noofpro{
+    width: 46px;
+    height: 28px;
+    padding: 3px 6px;
+    text-align: center;
+}
+.grpnoofp button{
+    border-radius: 50%;
+    margin: 0 10px;
+    width: 28px;
+    height: 28px;
+    background: linear-gradient(#fff,#f9f9f9);
+    display: inline-block;
+    border: 1px solid #c2c2c2;
+    cursor: pointer;
+    font-size: 16px;
+    padding-top: 1px;
+    line-height: 1
+}
+.cartpdpname{
+    font-weight: 550;
+}
+.cartpddevlryd{
+    
+}
+.paymnt1{
+    display: flex;
+    justify-content: flex-start;
+}
+.paycpind span{
+    margin: 0 0 0 10px;
+}
+
+.cpdtacmn{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.cpdt1aa{
+   
+}
+.cpdt1ab{
+    
+}
+.cpdt1ac{
+   
+}
+.cpdt1ad{
+    text-align: center;
+    font-weight: 550;
+    color: green;
+}
+.cartbtn {
+    float: left;
+    padding: 10px 30px;
+    background-color: #fb641b;
+    border: none;
+    color: white;
+   
+  }
+.cartbtn:hover {
+    background-color: #fb641b;
+    color: #ecf0f1;
+  }
+.cntnuebtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,37 @@
+.navbar2{
+    position: relative;
+    min-height: 40px;
+    color: #000;
+    margin-top: 100px;
+}
+.navbg{
+    background-color: white;
+}
+.navlist{
+    display: flex;
+    align-items: center;
+    max-width: 1248px;
+    justify-content: space-around;
+    position: relative;
+    margin: auto;
+    height: 40px;
+}
+.navlist{
+    display: flex;
+    align-items: center;
+}
+
+.navlist span a{
+   font-weight: 520; 
+   cursor: pointer;
+   color: black;
+   text-decoration: none;
+
+}
+.navlist span a:hover{
+    color: #0984e3;
+}
+.fa-angle-down{
+    margin-left: 5px;
+    
+}

@@ -1,0 +1,229 @@
+<!-- <div class="listnavbar container">
+    <ul class="nav navbar-nav">
+      <li><a routerLink="/Clothing" class="clothing">CLOTHING</a></li>
+      <li><a routerLink="/Accessories" class="accessories">ACCESSORIES</a></li>
+      <li><a routerLink="/Footwears" class="footwears">FOOTWEARS</a></li>
+      <li><a routerLink="/Watch" class="watches">WATCHES</a></li>
+      <li><a routerLink="/Grooming" class="grooming">GROOMIMG</a></li>
+    </ul>
+  </div>
+  <hr style="height: 5px; color: #000" /> -->
+  <div class="navbar2">
+    <div class="navbg">
+        <div class="navlist">
+            <span><a routerLink="/Clothing" >Clothing <i class="fa fa-angle-down"></i></a></span>
+            <span><a routerLink="/Accessories">Accessories <i class="fa fa-angle-down"></i></a></span>
+            <span><a routerLink="/Footwears" >Footwear<i class="fa fa-angle-down"></i></a></span>
+            <span><a routerLink="/Watch">Watches<i class="fa fa-angle-down"></i></a></span>
+            <span><a routerLink="/Grooming" >Grooming<i class="fa fa-angle-down"></i></a></span>
+        </div>
+    </div>
+</div>
+
+
+  <!-----------------------------shopping tab card---------------------->
+  <div class="common-card clothing-card">
+    <div id="clothing-card-content">
+      <div class="row">
+        <div class="col-sm-4">
+          <h5>Top Wear</h5>
+          <ul>
+            <li *ngFor="let tpwar of topwear">{{tpwar}}
+              </li>
+          </ul>
+          <h5>Bottom Wear</h5>
+          <ul>
+            <li *ngFor="let btwr of bottomwear">{{btwr}}
+              </li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <h5>Winter Wear</h5>
+          <ul>
+            <li *ngFor="let wntwr of winterwear">{{wntwr}}
+              </li>
+          </ul>
+          <h5>Ethnic Wear</h5>
+          <ul>
+            <li *ngFor="let ethwr of ethnicwear">{{ethwr}}</li>
+          </ul>
+          <h5>Innerwear & Loungewear</h5>
+          <ul>
+            <li *ngFor="let inrwr of innerwear">{{inrwr}}</li>
+          </ul>
+        </div>
+        <div class="col-sm-4 clothing-img">
+          <div>
+            <img src="assets/Images/dropdwnimg/denimpant.jpg" />
+            <img src="assets/Images/dropdwnimg/S21MEKUFSHRSLMU_MUSTARD.jpg" />
+          </div>
+          <div>
+            <img src="assets/Images/dropdwnimg/darkgreenshirt.jpg" />
+            <img src="assets/Images/dropdwnimg/blackhoodie.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-------------------------Accessories card--------------------------->
+  <div class="common-card accesories-card">
+    <div id="clothing-card-content">
+      <div class="row">
+        <div class="col-sm-4">
+          <h5>Accessories</h5>
+          <ul>
+            <li *ngFor="let accrs of accessories">{{accrs}}
+              </li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <h5>Travel & luggage</h5>
+          <ul>
+            <li *ngFor="let trvllg of luaggage">{{trvllg}}</li>
+          </ul>
+        </div>
+        <div class="col-sm-4 clothing-img">
+          <div>
+            <img src="assets/Images/dropdwnimg/americantouristr.jpg" />
+            <img src="assets/Images/dropdwnimg/mask.jpg" />
+          </div>
+          <div>
+            <img src="assets/Images/dropdwnimg/wallets.jpg" />
+            <img src="assets/Images/dropdwnimg/hardcase.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----------------------------footwear card--------------------------->
+  <div class="common-card footwear-card">
+    <div id="clothing-card-content">
+      <div class="row">
+        <div class="col-sm-4">
+          <h5>Footwear</h5>
+          <ul>
+            <li *ngFor="let ftwr of footwear">{{ftwr}}</li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <h5>Top Footwear Brands</h5>
+          <ul>
+            <li *ngFor="let tpftwr of topftwear">{{tpftwr}}
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-4 clothing-img">
+          <div>
+            <img src="assets/Images/dropdwnimg/crocs.jpg" />
+            <img src="assets/Images/dropdwnimg/formalshoe.jpg" />
+          </div>
+          <div>
+            <img src="assets/Images/dropdwnimg/sneakers.jpg" />
+            <img src="assets/Images/dropdwnimg/adidasshoe.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----------------------------Watches card---------------------------->
+  <div class="common-card watch-card">
+    <div id="clothing-card-content">
+      <div class="row">
+        <div class="col-sm-4">
+          <h5>Watches</h5>
+          <ul>
+            <li *ngFor="let wtch of watches">{{wtch}}</li>
+          </ul>
+          <h5>Fitness Bands</h5>
+          <ul>
+            <li *ngFor="let ftnsbnd of fitnessband">{{ftnsbnd}}</li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <h5>Smart Watches</h5>
+          <ul>
+            <li *ngFor="let smtwtch of smartwatch">{{smtwtch}}
+              </li>
+          </ul>
+          <h5>Analog Digital</h5>
+          <ul>
+            <li *ngFor="let anlgwtch of analogwatch">{{anlgwtch}}</li>
+          </ul>
+        </div>
+        <div class="col-sm-4 clothing-img">
+          <div>
+            <img src="assets/Images/dropdwnimg/fastrackfitnessband.jpg" />
+            <img src="assets/Images/dropdwnimg/digitalwatch.jpg" />
+          </div>
+          <div>
+            <img src="assets/Images/dropdwnimg/smartwatch.jpg" />
+            <img src="assets/Images/dropdwnimg/analogwatch.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----------------------------grooming card--------------------------->
+  <div class="common-card grooming-card">
+    <div id="clothing-card-content">
+      <div class="row">
+        <div class="col-sm-4">
+          <h5>Grooming</h5>
+          <ul>
+            <li *ngFor="let grmg of grooming">{{grmg}}</li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <h5>Top Grooming Brands</h5>
+          <ul>
+            <li *ngFor="let tpgrmgbrnds of topgrmbrands">{{tpgrmgbrnds}}</li>
+          </ul>
+        </div>
+        <div class="col-sm-4 clothing-img">
+          <div>
+            <img src="assets/Images/dropdwnimg/trimmer.jpg" />
+            <img src="assets/Images/dropdwnimg/wax.jpg" />
+          </div>
+          <div>
+            <img src="assets/Images/dropdwnimg/shaver.jpg" />
+            <img src="assets/Images/dropdwnimg/fashwash.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----------------------------profile card---------------------------->
+  <div id="card">
+    <div id="card-content">
+      <div class="card-title">
+        <h2>LOGIN</h2>
+        <div class="underline-text"></div>
+      </div>
+      <form class="form">
+        <label class="email">EMAIL</label>
+        <input
+          id=""
+          class="form-content"
+          type="email"
+          name="email"
+          placeholder="Type your E-Mail"
+          required
+        />
+        <div class="form-border"></div>
+        <label style="padding-top: 30px">PASSWORD</label>
+        <input
+          id=""
+          class="form-content"
+          type="password"
+          name="password"
+          placeholder="Enter your Password"
+          required
+        />
+        <div class="form-border"></div>
+        <a href=""><p class="forget-pass">Forget Password?</p></a>
+        <input id="submit-btn" type="submit" name="submit" value="LOGIN" />
+        <a href="#" id="signup">Don't have account yet?</a>
+      </form>
+    </div>
+  </div>
+
